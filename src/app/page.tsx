@@ -26,7 +26,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/60" />
         <div className="relative z-10 flex flex-col items-center p-4">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-headline font-bold text-shadow-lg">
-            Alex Rivera
+            Alexander Peña
           </h1>
           <p className="mt-4 text-xl md:text-2xl font-body text-primary">
             Guitarist | Composer | Producer
