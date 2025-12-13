@@ -1,3 +1,64 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-guitarist",
+      "description": "A guitarist playing on a dimly lit stage.",
+      "imageUrl": "https://images.unsplash.com/photo-1606819813301-c47338f20940?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxndWl0YXJpc3QlMjBzdGFnZXxlbnwwfHx8fDE3NjU2MDc0NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "guitarist stage"
+    },
+    {
+      "id": "about-guitarist",
+      "description": "A professional portrait of a musician holding a guitar.",
+      "imageUrl": "https://images.unsplash.com/photo-1675859427928-fe41277572b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtdXNpY2lhbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NTU1ODE4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "musician portrait"
+    },
+    {
+      "id": "gallery-video-1",
+      "description": "A dynamic shot of a live concert performance.",
+      "imageUrl": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsaXZlJTIwY29uY2VydHxlbnwwfHx8fDE3NjU1Mzg1MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "live concert"
+    },
+    {
+      "id": "gallery-video-2",
+      "description": "A shot of a music production studio with equipment.",
+      "imageUrl": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtdXNpYyUyMHN0dWRpb3xlbnwwfHx8fDE3NjU2NDg1NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "music studio"
+    },
+    {
+      "id": "gallery-video-3",
+      "description": "A close-up of hands playing an acoustic guitar.",
+      "imageUrl": "https://images.unsplash.com/photo-1567771736315-133752f63a69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhY291c3RpYyUyMGd1aXRhcnxlbnwwfHx8fDE3NjU2Mzg3MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "acoustic guitar"
+    },
+    {
+      "id": "gallery-video-4",
+      "description": "A blues guitarist playing an electric guitar.",
+      "imageUrl": "https://images.unsplash.com/photo-1761145229068-4209879e09ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxibHVlcyUyMGd1aXRhcmlzdHxlbnwwfHx8fDE3NjU2NDg1NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "blues guitarist"
+    },
+    {
+      "id": "gallery-audio-1",
+      "description": "Abstract visualization of sound waves.",
+      "imageUrl": "https://images.unsplash.com/photo-1663810473454-452e4b63117b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c291bmQlMjB3YXZlc3xlbnwwfHx8fDE3NjU2MzU4NTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sound waves"
+    },
+    {
+      "id": "gallery-audio-2",
+      "description": "A professional audio mixing console.",
+      "imageUrl": "https://images.unsplash.com/photo-1535406208535-1429839cfd13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtaXhpbmclMjBjb25zb2xlfGVufDB8fHx8MTc2NTY0ODU1NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mixing console"
+    },
+    {
+      "id": "gallery-audio-3",
+      "description": "A vintage microphone in a recording booth.",
+      "imageUrl": "https://images.unsplash.com/photo-1507676385008-e7fb562d11f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx2aW50YWdlJTIwbWljcm9waG9uZXxlbnwwfHx8fDE3NjU2NDg1NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vintage microphone"
+    },
+    {
+      "id": "gallery-audio-4",
+      "description": "Sheet music on a stand.",
+      "imageUrl": "https://images.unsplash.com/photo-1717699841805-e80424b1be43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzaGVldCUyMG11c2ljfGVufDB8fHx8MTc2NTU4NTIxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sheet music"
+    }
+  ]
 }
