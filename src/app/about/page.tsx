@@ -21,21 +21,18 @@ export default function AboutPage() {
             )}
           </div>
           <div className="md:col-span-3 p-8 md:p-12">
-            <h1 className="text-4xl md:text-5xl font-headline font-bold text-primary mb-6">
-              About Alex Rivera
+            <h1 className="text-4xl md:text-5xl font-sans font-bold text-primary mb-6">
+              Alesander Peña
             </h1>
             <div className="space-y-6 text-lg text-foreground/80 font-body">
               <p>
-                Alex Rivera is a versatile guitarist, composer, and music educator with a deep-rooted passion for the expressive power of the six-string. With over two decades of experience, he has carved out a unique voice that seamlessly blends the soulful improvisation of <strong className="text-primary/90">jazz</strong>, the raw energy of <strong className="text-primary/90">rock</strong>, and the heartfelt storytelling of the <strong className="text-primary/90">blues</strong>.
+               Alesander Peña, o Sander, es un destacado guitarrista y compositor nacido en 1997 en Castro-Urdiales, Cantabria. Comenzó su camino musical a los 8 años en su pintoresco pueblo natal, tocando en grupos locales y experimentando con grabaciones. A los 18 años, su formación en L'AULA lo introdujo al mundo del jazz.
               </p>
               <p>
-                His musical journey began at a young age, inspired by the icons of guitar. This initial spark led him to formal studies at the Berklee College of Music, where he honed his technical skills and deepened his understanding of music theory and composition. Throughout his career, Alex has performed at renowned venues and festivals, sharing the stage with a diverse array of artists.
+                A los 22 años, continuó su formación en el Centro Superior de Música Liceu con una beca de la Fundación Ferrer-Salat, guiado por mentores como Jaume Llombart y Dani Pérez. Desarrolló su talento en escenarios icónicos de Barcelona como Jamboree, Gran Teatro del Liceu y La Pedrera, así como en otros lugares de España, Italia, Alemania o Brasil. También vivió en Rio de Janeiro tras acabar la carrera, donde se sumergió de lleno en la música y cultura brasileña.
               </p>
               <p>
-                Beyond performance, Alex is a dedicated teacher, committed to nurturing the next generation of musicians. His teaching philosophy emphasizes not just technical proficiency but also musicality, creativity, and finding one's own unique style. He offers private lessons, workshops, and online courses covering topics from fretboard harmony to advanced improvisation techniques.
-              </p>
-              <p>
-                In recent years, Alex has also ventured into video production, creating high-quality performance videos, tutorials, and gear demonstrations for his growing online audience. This multimedia approach allows him to share his passion and knowledge with a global community of music lovers.
+                En la actualidad, Sander avanza en su carrera musical como docente, así como preparando futuros proyectos y centrándose en los ya existentes. Además, participa en varios grupos y colabora en actuaciones y grabaciones de destacados músicos de Barcelona y del norte de España, así como con algunos artistas internacionales.
               </p>
             </div>
           </div>

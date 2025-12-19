@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <p className="text-center md:text-left text-sm text-muted-foreground">
-              &copy; {new Date().getFullYear()} Six-String Showcase. All Rights Reserved.
+              &copy; {new Date().getFullYear()} Alesander Peña. Todos los derechos reservados.
             </p>
           </div>
           <div className="flex items-center space-x-4">

@@ -39,7 +39,7 @@ export default function MediaGallery() {
                     </div>
                   </CardHeader>
                   <CardFooter className="p-4 flex-grow flex flex-col items-start">
-                    <h3 className="text-lg font-headline font-semibold">{item.title}</h3>
+                    <h3 className="text-lg font-sans font-semibold">{item.title}</h3>
                     <p className="mt-1 text-sm text-muted-foreground">{item.description}</p>
                   </CardFooter>
                 </Card>
@@ -53,28 +53,30 @@ export default function MediaGallery() {
           {GALLERY_AUDIO.map((item) => {
             const image = PlaceHolderImages.find(img => img.id === item.imageId);
             return (
-              <Card key={item.id} className="group overflow-hidden h-full flex flex-col justify-between transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 hover:border-primary/50 cursor-pointer">
-                <CardHeader className="p-0 relative">
-                  <div className="aspect-video">
-                    {image && (
-                       <Image
-                          src={image.imageUrl}
-                          alt={image.description}
-                          fill
-                          className="object-cover transition-transform duration-300 group-hover:scale-105"
-                          data-ai-hint={image.imageHint}
-                        />
-                    )}
-                    <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <Music2 className="h-16 w-16 text-white/80" />
+               <Link href={item.audioUrl} key={item.id} target="_blank" rel="noopener noreferrer">
+                <Card key={item.id} className="group overflow-hidden h-full flex flex-col justify-between transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 hover:border-primary/50 cursor-pointer">
+                  <CardHeader className="p-0 relative">
+                    <div className="aspect-video">
+                      {image && (
+                        <Image
+                            src={image.imageUrl}
+                            alt={image.description}
+                            fill
+                            className="object-cover transition-transform duration-300 group-hover:scale-105"
+                            data-ai-hint={image.imageHint}
+                          />
+                      )}
+                      <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <Music2 className="h-16 w-16 text-white/80" />
+                      </div>
                     </div>
-                  </div>
-                </CardHeader>
-                <CardFooter className="p-4 flex-grow flex flex-col items-start">
-                  <h3 className="text-lg font-headline font-semibold">{item.title}</h3>
-                  <p className="mt-1 text-sm text-muted-foreground">{item.description}</p>
-                </CardFooter>
-              </Card>
+                  </CardHeader>
+                  <CardFooter className="p-4 flex-grow flex flex-col items-start">
+                    <h3 className="text-lg font-sans font-semibold">{item.title}</h3>
+                    <p className="mt-1 text-sm text-muted-foreground">{item.description}</p>
+                  </CardFooter>
+                </Card>
+              </Link>
             );
           })}
         </div>

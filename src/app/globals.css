@@ -39,24 +39,24 @@
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
   .dark {
-    --background: 0 0% 29.1%;
-    --foreground: 0 0% 98%;
-    --card: 0 0% 20%;
-    --card-foreground: 0 0% 98%;
+    --background: 0 0% 15%; /*fondo navbarsuperior*/
+    --foreground: 0 0% 98%; /*texto navbarSuperior*/
+    --card: 53, 10%, 30%; /*card background*/
+    --card-foreground: 0 0% 98%; /*card text*/
     --popover: 0 0% 20%;
     --popover-foreground: 0 0% 98%;
-    --primary: 45 65% 52%;
+    --primary: 45 65% 52%; /*titles and cards hoovers, now are in yellow*/
     --primary-foreground: 0 0% 15%;
     --secondary: 0 0% 24%;
     --secondary-foreground: 0 0% 98%;
-    --muted: 0 0% 24%;
-    --muted-foreground: 0 0% 63.9%;
+    --muted: 0 0% 24%; /*background gallery selector*/
+    --muted-foreground: 0 0% 63.9%; /*subtitles now in grey slate*/
     --accent: 45 65% 52%;
     --accent-foreground: 0 0% 15%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 24%;
-    --input: 0 0% 24%;
+    --border: 0 0% 24%; /*border cards and lines*/
+    --input: 0 0% 24%; /*border inputs form*/
     --ring: 45 65% 52%;
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;

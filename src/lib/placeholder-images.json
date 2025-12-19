@@ -3,31 +3,31 @@
     {
       "id": "hero-guitarist",
       "description": "A guitarist playing on a dimly lit stage.",
-      "imageUrl": "https://images.unsplash.com/photo-1606819813301-c47338f20940?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxndWl0YXJpc3QlMjBzdGFnZXxlbnwwfHx8fDE3NjU2MDc0NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://res.cloudinary.com/druzjqa9q/image/upload/v1766167385/000062_j1i8n1.jpg",
       "imageHint": "guitarist stage"
     },
     {
       "id": "about-guitarist",
       "description": "A professional portrait of a musician holding a guitar.",
-      "imageUrl": "https://images.unsplash.com/photo-1675859427928-fe41277572b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtdXNpY2lhbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NTU1ODE4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://res.cloudinary.com/druzjqa9q/image/upload/v1766167384/0K6A5332_znu517.jpg",
       "imageHint": "musician portrait"
     },
     {
       "id": "gallery-video-1",
       "description": "A dynamic shot of a live concert performance.",
-      "imageUrl": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsaXZlJTIwY29uY2VydHxlbnwwfHx8fDE3NjU1Mzg1MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://res.cloudinary.com/druzjqa9q/image/upload/v1766167962/portada_pfif18.jpg",
       "imageHint": "live concert"
     },
     {
       "id": "gallery-video-2",
       "description": "A shot of a music production studio with equipment.",
-      "imageUrl": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtdXNpYyUyMHN0dWRpb3xlbnwwfHx8fDE3NjU2NDg1NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://res.cloudinary.com/druzjqa9q/image/upload/v1766168048/hq720_g4llxl.jpg",
       "imageHint": "music studio"
     },
     {
       "id": "gallery-video-3",
       "description": "A close-up of hands playing an acoustic guitar.",
-      "imageUrl": "https://images.unsplash.com/photo-1567771736315-133752f63a69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhY291c3RpYyUyMGd1aXRhcnxlbnwwfHx8fDE3NjU2Mzg3MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://res.cloudinary.com/druzjqa9q/image/upload/v1766168339/Sara_Sander_lgug5c.jpg",
       "imageHint": "acoustic guitar"
     },
     {
@@ -39,7 +39,7 @@
     {
       "id": "gallery-audio-1",
       "description": "Abstract visualization of sound waves.",
-      "imageUrl": "https://images.unsplash.com/photo-1663810473454-452e4b63117b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c291bmQlMjB3YXZlc3xlbnwwfHx8fDE3NjU2MzU4NTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://res.cloudinary.com/druzjqa9q/image/upload/v1766169387/yo_menos_calidad_nudpbv.jpg",
       "imageHint": "sound waves"
     },
     {

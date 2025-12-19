@@ -25,21 +25,21 @@ export default function Home() {
         )}
         <div className="absolute inset-0 bg-black/60" />
         <div className="relative z-10 flex flex-col items-center p-4">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-headline font-bold text-shadow-lg">
-            Alexander Peña
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-sans font-light text-shadow-lg">
+            Alesander Peña
           </h1>
           <p className="mt-4 text-xl md:text-2xl font-body text-primary">
-            Guitarist | Composer | Producer
+            Guitarrista | Compositor | Videógrafo
           </p>
-          <Button asChild size="lg" className="mt-8 bg-primary text-primary-foreground hover:bg-primary/90">
-            <Link href="/contact">Get In Touch</Link>
-          </Button>
+          {/* <Button asChild size="lg" className="mt-8 bg-primary text-primary-foreground hover:bg-primary/90">
+            <Link href="/contact">Contáctame</Link>
+          </Button> */}
         </div>
       </section>
 
-      <section className="py-16 md:py-24 bg-card">
+      <section className="py-16 md:py-24 bg-background">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-headline font-bold text-center mb-12 text-primary">
+          <h2 className="text-4xl font-sans font-light text-center mb-12 text-primary">
             My Work
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -61,7 +61,7 @@ export default function Home() {
                         </div>
                       )}
                       <div className="p-6">
-                        <h3 className="text-xl font-headline font-semibold">{item.title}</h3>
+                        <h3 className="text-xl font-sans font-semibold">{item.title}</h3>
                         <p className="mt-2 text-muted-foreground">{item.description}</p>
                       </div>
                     </CardContent>

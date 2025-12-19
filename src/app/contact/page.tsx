@@ -8,29 +8,29 @@ export default function ContactPage() {
     <div className="container mx-auto px-4 py-16 md:py-24">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16">
         <div>
-          <h1 className="text-4xl md:text-5xl font-headline font-bold text-primary mb-4">
-            Get In Touch
+          <h1 className="text-4xl md:text-5xl font-sans font-bold text-primary mb-4">
+            Contáctame
           </h1>
           <p className="text-lg text-muted-foreground mb-8">
-            Have a question, a project proposal, or just want to talk about music? I'd love to hear from you.
+            Si tienes alguna pregunta, quieres clases o una propuesta de proyecto, contáctame.
           </p>
           <ContactForm />
         </div>
         <div className="bg-card p-8 rounded-lg">
-          <h2 className="text-3xl font-headline font-bold mb-6">Contact Information</h2>
+          <h2 className="text-3xl font-sans font-bold mb-6">Información de contacto</h2>
           <div className="space-y-6">
             <div className="flex items-center gap-4">
               <Mail className="h-6 w-6 text-primary" />
-              <a href="mailto:contact@alexrivera.music" className="text-lg hover:text-primary transition-colors">
-                contact@alexrivera.music
+              <a href="mailto:alesanderpa@gmail.com" className="text-lg hover:text-primary transition-colors">
+                alesanderpa@gmail.com
               </a>
             </div>
-            <div className="flex items-center gap-4">
+            {/* <div className="flex items-center gap-4">
               <Phone className="h-6 w-6 text-primary" />
               <span className="text-lg text-muted-foreground">(555) 123-4567</span>
-            </div>
+            </div> */}
           </div>
-          <h2 className="text-3xl font-headline font-bold mt-12 mb-6">Follow Me</h2>
+          <h2 className="text-3xl font-sans font-bold mt-12 mb-6">Sígueme en las redes</h2>
           <div className="flex items-center space-x-6">
             {SOCIAL_LINKS.map((social) => (
               <Link
