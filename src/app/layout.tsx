@@ -6,8 +6,8 @@ import Header from '@/components/layout/header';
 import Footer from '@/components/layout/footer';
 
 export const metadata: Metadata = {
-  title: 'Six-String Showcase',
-  description: 'Professional portfolio for a guitarist and music teacher.',
+  title: 'Alesander Peña',
+  description: 'Guitarrista profesional',
 };
 
 export default function RootLayout({
