@@ -51,8 +51,8 @@ export default function Header() {
               <div className="flex flex-col h-full">
                 <div className="flex items-center justify-between p-4 border-b">
                    <Link href="/" className="flex items-center space-x-2" onClick={() => setIsMobileMenuOpen(false)}>
-                    <Guitar className="h-6 w-6 text-primary" />
-                    <span className="font-bold">Six-String Showcase</span>
+                    {/* <Guitar className="h-6 w-6 text-primary" /> */}
+                    <span className="font-bold">Alesander Peña</span>
                   </Link>
                 </div>
                 <nav className="flex flex-col space-y-4 p-4">
