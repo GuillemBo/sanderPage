@@ -40,7 +40,7 @@ export default function Home() {
       <section className="py-16 md:py-24 bg-background">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-sans font-light text-center mb-12 text-primary">
-            My Work
+            Mis trabajos
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {recentWork.map((item) => {
@@ -73,7 +73,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <Button asChild variant="link" className="text-primary text-lg">
               <Link href="/gallery">
-                View Full Gallery <ArrowRight className="ml-2 h-5 w-5" />
+                Ver Galería Completa <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
           </div>
