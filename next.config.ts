@@ -1,6 +1,8 @@
 import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
+  // 👉 NECESARIO PARA NETLIFY (EXPORT ESTÁTICO)
+  output: 'export',
   /* config options here */
   typescript: {
     ignoreBuildErrors: true,
@@ -9,6 +11,9 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
+    // 👉 NECESARIO PARA NETLIFY
+    unoptimized: true,
+
     remotePatterns: [
       {
         protocol: 'https',
